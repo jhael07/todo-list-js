@@ -15,7 +15,7 @@ input.addEventListener("keydown", (e) => {
   tarea.classList.add("tarea");
 
   const container = document.querySelector(".container");
-  if (e.key === "Enter" && input.value != "") {
+  if (e.key === "Enter" && input.value !== "") {
     tarea.insertAdjacentHTML(
       "afterbegin",
       `<div class="content">
