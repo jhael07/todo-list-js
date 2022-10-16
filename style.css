@@ -1,0 +1,115 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.container {
+  margin-top: 1rem;
+  width: 45%;
+  min-width: 45%;
+  background-color: rgb(86, 227, 255);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1.6rem;
+  transition: 1s;
+}
+
+input {
+  width: 60%;
+  min-width: 60%;
+  padding: 0.7rem;
+  font-size: 20px;
+  border: 1px solid rgb(88, 133, 174);
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  background-color: rgb(78, 117, 225);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(0, 48, 126);
+  margin: auto;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input:hover {
+  background-color: rgb(221, 246, 246);
+}
+
+.tarea {
+  margin: auto;
+  margin-top: 1rem;
+  width: 70%;
+  min-width: 70%;
+  background-color: white;
+  padding: 0.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 20px;
+  text-align: left;
+  transition: 0.2s;
+}
+
+.tarea:hover {
+  background-color: rgb(250, 247, 247);
+  transition: 0.1ms;
+}
+.removeMssg {
+  background-color: rgb(243, 74, 44);
+  position: relative;
+  border: none;
+  display: flex;
+  margin-right: -5%;
+  margin-top: -15%;
+  min-width: fit-content;
+  margin-inline-end: -3%;
+  transition: 0.3s;
+}
+
+.removeMssg:hover {
+  background-color: rgb(251, 51, 51);
+}
+
+.content {
+  padding-right: 3.5rem;
+  text-align: justify;
+  transition: 0.3s;
+}
+
+.d-none {
+  display: none;
+  transition: 0.8s;
+}
+
+.addTask {
+  transition: 0.3s;
+  border: none;
+  padding: 0.7rem;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.addTask:hover {
+  background-color: rgb(42, 246, 127);
+  border: none;
+  transition: 0.2s;
+}
